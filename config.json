@@ -1,0 +1,20 @@
+{
+  "search": {
+    "term": "iPhone",
+    "pages": 10
+  },
+  "output": {
+    "filename": "bazos_produkty.csv",
+    "encoding": "utf-8-sig",
+    "delimiter": ";"
+  },
+  "scraper": {
+    "delay": 3,
+    "window_size": "1400,1200",
+    "headless": false
+  },
+  "validation": {
+    "min_price": 10,
+    "max_price": 5000
+  }
+}
